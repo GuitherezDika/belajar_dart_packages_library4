@@ -43,3 +43,19 @@ PUBSPEC.YAML & LIB
 
 test pertama -> 
 dart example/hello.dart
+
+membuat TAG RELEASE di repository
+terminal =
+ git tag 1.0.0
+ git tag => return 1.0.0
+ git push origin --tags
+ di repository muncul versi release 1.0.0 OK
+
+ MEMBUAT APPLIKASI (CONSOLE)
+ terminal = dart create --template=console-full belajar_dart_application4
+cd project = dart run
+
+UPGRADE APPLIKASI
+pubspec.yaml
+version: 1.5.0
+penambahan git tag
